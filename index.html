@@ -16,11 +16,50 @@
         p {
             color: whitesmoke;
         }
+
+        div#bola {
+            width: 100px;
+            height: 100px;
+            background-image: radial-gradient(circle ,red, black);
+            border-radius: 50%;
+            margin: auto;
+            margin-top: 150px;
+        }
+
+        div#bola:hover {
+            animation: boucing .8s linear infinite;
+        }
+
+        div#barra {
+            background-color: black;
+            width: 200px;
+            height: 3px;
+            margin: auto;
+        }
+
+
+        @keyframes boucing {
+            0%{
+                transform: translateY(0);
+            } 
+            50% {
+                transform: translateY(-80px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+
+        }
     </style>
 </head>
 <body>
     <h1>Testando Git e GitHub</h1>
     <p>Olá, Mundo!</p>
     <p>Nhe</p>
+
+    <div id="area">
+        <div id="bola"></div>
+        <div id="barra"></div>
+    </div>
 </body>
 </html>

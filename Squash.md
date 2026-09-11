@@ -1,12 +1,9 @@
-# Código do commit 1
+# Limpeza para arrumar
+
+# Commit 2, novas alteações
 
 
-# Código do commit 2 [Isso veio do commit 3]
+# Commit 3 - Fingindo que precisei corrigir
 
 
-# Código do commit 3
-
-
-# Código commit 4 - Esse é para ser separado mesmo (amend me)
-
-fim!
+# Migrations!!!
